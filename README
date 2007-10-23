@@ -1,0 +1,64 @@
+php-geoip
+------------------------------------------
+This PHP extension allows you to find the location of an IP address - 
+City, State, Country, Longitude, Latitude, and other information as all, 
+such as ISP and connection type.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libGeoIP1-1.4.3-1
+  php-5.2.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  re2c-0.12.3-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://pecl.php.net/package/geoip
+
+Canonical download:
+  http://pecl.php.net/get/geoip
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-geoip-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-geoip-1.0.1-X.cygport all
+
+This will create:
+  /usr/src/php-geoip-1.0.1-X-src.tar.bz2
+  /usr/src/php-geoip-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/php5/conf.d/geoip.ini
+  /usr/lib/php/20060613/geoip.dll
+  /usr/share/doc/Cygwin/php-geoip-1.0.1.README
+  /usr/share/doc/php-geoip-1.0.1/ChangeLog
+  /usr/share/doc/php-geoip-1.0.1/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
