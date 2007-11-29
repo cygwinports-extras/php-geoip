@@ -7,7 +7,7 @@ such as ISP and connection type.
 Runtime requirements:
   cygwin-1.5.24-2
   libGeoIP1-1.4.3-1
-  php-5.2.4-1
+  php-5.2.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack php-geoip-1.0.1-X-src.tar.bz2
+  unpack php-geoip-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./php-geoip-1.0.1-X.cygport all
+  cygport ./php-geoip-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/php-geoip-1.0.1-X-src.tar.bz2
-  /usr/src/php-geoip-1.0.1-X.tar.bz2
+  /usr/src/php-geoip-1.0.2-X-src.tar.bz2
+  /usr/src/php-geoip-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,13 +48,30 @@ Files included in the binary package:
 
   /etc/php5/conf.d/geoip.ini
   /usr/lib/php/20060613/geoip.dll
-  /usr/share/doc/Cygwin/php-geoip-1.0.1.README
-  /usr/share/doc/php-geoip-1.0.1/ChangeLog
-  /usr/share/doc/php-geoip-1.0.1/README
+  /usr/share/doc/Cygwin/php-geoip-1.0.2.README
+  /usr/share/doc/php-geoip-1.0.2/ChangeLog
+  /usr/share/doc/php-geoip-1.0.2/README
+  /usr/share/pear/.registry/.channel.pecl.php.net/geoip.reg
+  /usr/share/pear/doc/geoip/ChangeLog
+  /usr/share/pear/doc/geoip/README
+  /usr/share/pear/test/geoip/tests/001.phpt
+  /usr/share/pear/test/geoip/tests/002.phpt
+  /usr/share/pear/test/geoip/tests/003.phpt
+  /usr/share/pear/test/geoip/tests/004.phpt
+  /usr/share/pear/test/geoip/tests/005.phpt
+  /usr/share/pear/test/geoip/tests/006.phpt
+  /usr/share/pear/test/geoip/tests/007.phpt
+  /usr/share/pear/test/geoip/tests/008.phpt
+  /usr/share/pear/test/geoip/tests/009.phpt
+  /usr/share/pear/test/geoip/tests/010.phpt
+  /usr/share/pear/test/geoip/tests/011.phpt
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-1 -----
 Initial release for Cygwin.
