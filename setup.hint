@@ -1,5 +1,5 @@
 category: PHP
-requires: cygwin libGeoIP1 php
+requires: libGeoIP1 php
 sdesc: "PHP GeoIP extension"
 ldesc: "This PHP extension allows you to find the location of an IP 
 address - City, State, Country, Longitude, Latitude, and other 
